@@ -1,0 +1,70 @@
+/* geral styling */
+*{
+
+    margin:0;
+    padding: 0;
+    background-origin: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+}
+.interface{
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/*header style */
+header{
+
+    padding: 40px 4%;
+}
+
+header > .interface{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+
+    color: #7c7c7c;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover{
+
+    color: beige;
+    transform: scale(1.06);
+    transition: .2s;
+}
+
+header nav ul{
+
+    list-style-type: none;
+}
+
+header nav ul li{
+
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contact button{
+
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(102, 0, 204);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+header .btn-contact button:hover{
+
+    box-shadow: 0px 0px 10px rgba(128, 0, 255, 0.486);
+}
